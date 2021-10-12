@@ -1,4 +1,5 @@
-<?php
+Converted PHP script
+ <?php
 @system("clear");
 $var_289c4962919c8c887279a40923d0fcd6 = "[1;30m";
        echo "$var_289c4962919c8c887279a40923d0fcd6
@@ -18,7 +19,7 @@ $var_289c4962919c8c887279a40923d0fcd6 = "[1;30m";
 		⠄⠄⠈⠛⢿⣿⣿⣿⠁⠞⢿⣿⣿⡄⢿⣿⡇⣸⣿⣿⠿⠛⠁⠄⠄⠄⠄⠄
 		⠄⠄⠄⠄⠄⠉⠻⣿⣿⣾⣦⡙⠻⣷⣾⣿⠃⠿⠋⠁⠄⠄⠄⠄⠄⢀⣠⣴
 		⣿⣶⣶⣮⣥⣒⠲⢮⣝⡿⣿⣿⡆⣿⡿⠃⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄";
-		
+
 $var_5dae906c4a8cbbd417660fe9b59c268d = "[0;30;47m";
 echo "
 $$$$$$$$$$$$$ ALL IN ONE SCRIPT BY VINCE ASTURIAS $$$$$$$$$$$";
@@ -44,7 +45,6 @@ $var_289c4962919c8c887279a40923d0fcd6 = "[1;37;40m";
 		⠄⠄⠈⠛⢿⣿⣿⣿⠁⠞⢿⣿⣿⡄⢿⣿⡇⣸⣿⣿⠿⠛⠁⠄⠄⠄⠄⠄
 		⠄⠄⠄⠄⠄⠉⠻⣿⣿⣾⣦⡙⠻⣷⣾⣿⠃⠿⠋⠁⠄⠄⠄⠄⠄⢀⣠⣴
 		⣿⣶⣶⣮⣥⣒⠲⢮⣝⡿⣿⣿⡆⣿⡿⠃⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄";
-
 
 echo "
 ";
@@ -1892,8 +1892,9 @@ DATA;
 	$var_217cc9ea7e60233b3901af169f965155 = array("authorization:Bearer $var_d64042576877204dcf7c4f7c090dfdd4", "user-agent:Lyka/3.6.29 (com.thingsilikeapp; build:829 Android O_MR1 28))", "deviceos: android", "Content-Type: application/json",);
     curl_setopt($var_1d9ce56f70fabfda48b099eede24af3b, CURLOPT_HTTPHEADER, $var_217cc9ea7e60233b3901af169f965155);
 	$var_7ab2d6450bade4f4d022b45fdffdc0e6 = "0.35";
+	$var_d61ac3601037e2ebbb0f713e7e948ddd = "amount";
 	$var_68572bed397ee55f2499497aa887137e = "700017854513";
-    $var_6de8eb6d3870374324955eecc45e2963 = '{"amount":"' . $var_7ab2d6450bade4f4d022b45fdffdc0e6 . '","device":{"deviceId":"fcaa86b842595c2f",
+    $var_6de8eb6d3870374324955eecc45e2963 = '{"'.$var_d61ac3601037e2ebbb0f713e7e948ddd.'":"' . $var_7ab2d6450bade4f4d022b45fdffdc0e6 . '","device":{"deviceId":"fcaa86b842595c2f",
 "deviceIP":"$ip.$ip1.$ip2.$ip3",
     "networkIP":"$ip.$ip1.$ip2.$ip3",
 "deviceImei":"fcaa86b842595c2f","deviceModel":"Xiaomi Redmi Note 5","deviceName":"android","deviceOs":"Android O_MR1 ","isEmulator":false,"notificationToken":"eFEXEC5pTAeXLu7JjIlpNX:APA91bF8I2ZGs8wUNDjpw5lSnzrz8fB652HYMxWBdTGtFRSUaBEd0pHZQvWXAd00ESKVUO_VtYieRQxtfEU7f3RUIHEs5zXGZSVqk5PfbzjZTJQcue0vHYRiEobXHk8JUlTa0nmPCdgR","osVersion":"28"},"recipientId":' . $var_68572bed397ee55f2499497aa887137e . '}';
@@ -2483,4 +2484,3 @@ $var_269e69c8e6e2ee7641671243f31c761c=25;
         }
 	}
 	}
-?>
