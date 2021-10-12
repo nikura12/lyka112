@@ -1,10 +1,9 @@
-Converted PHP script
- <?php
+<?php
 @system("clear");
 $var_289c4962919c8c887279a40923d0fcd6 = "[1;30m";
        echo "$var_289c4962919c8c887279a40923d0fcd6
 ";
-		echo "
+			echo "
 		⣾⣿⠿⠿⠶⠿⢿⣿⣿⣿⣿⣦⣤⣄⢀⡅⢠⣾⣛⡉⠄⠄⠄⠸⢀⣿⠄
 		⢀⡋⣡⣴⣶⣶⡀⠄⠄⠙⢿⣿⣿⣿⣿⣿⣴⣿⣿⣿⢃⣤⣄⣀⣥⣿⣿⠄
 		⢸⣇⠻⣿⣿⣿⣧⣀⢀⣠⡌⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⣿⣿⣿⠄
@@ -30,7 +29,7 @@ echo "$var_c4502e34f756e12522996d4b763a3080
 $var_289c4962919c8c887279a40923d0fcd6 = "[1;37;40m";
        echo "$var_289c4962919c8c887279a40923d0fcd6
 ";
-		echo "
+			echo "
 		⣾⣿⠿⠿⠶⠿⢿⣿⣿⣿⣿⣦⣤⣄⢀⡅⢠⣾⣛⡉⠄⠄⠄⠸⢀⣿⠄
 		⢀⡋⣡⣴⣶⣶⡀⠄⠄⠙⢿⣿⣿⣿⣿⣿⣴⣿⣿⣿⢃⣤⣄⣀⣥⣿⣿⠄
 		⢸⣇⠻⣿⣿⣿⣧⣀⢀⣠⡌⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⣿⣿⣿⠄
@@ -64,10 +63,10 @@ $var_25b7f5b6295ca91059b62fc66c6f7cfe = readline('Enter Dummy Pass: ');
 echo "
 	-----------ENTER YOUR MAINS-----------
 ";
-$var_91dc08c7280b16618bd6e7f464a0ce39 = readline('main1: ');
-$var_2e57151be7583f0f60da1d6b308f2cfc = readline('main2: ');
-$var_7e3cd1ad4a3d19dc252a6dfd89b9bbc2 = readline('main3: ');
-$var_d5e51124d12a8c4cc0efdf615af451fe = readline('main4: ');
+$var_9d6376671205e164108a012fdeaaebb3 = readline('main1: ');
+$var_027bf4670cb345c36f1286e9f277e6aa = readline('main2: ');
+$var_4c25c63b92c46391ee1cfc81a79b0009 = readline('main3: ');
+$var_017f56caef9507c13a0fd9d7533cf00c = readline('main4: ');
 
 echo "
 	-----------Random Device Info-----------
@@ -277,7 +276,7 @@ exit
         ;    
 }
 if ($var_93754e16e5de1dacc93f82016f2fae50 == 1) {
-    $var_7021c576192f38e1c3be7daef45b3e82 = "https://users.mylykaapps.com/api/v3/users/searchsuggestedpeople?searchText=$var_91dc08c7280b16618bd6e7f464a0ce39&os=android&pageIndex=1&pageSize=16";
+    $var_7021c576192f38e1c3be7daef45b3e82 = "https://users.mylykaapps.com/api/v3/users/searchsuggestedpeople?searchText=$var_9d6376671205e164108a012fdeaaebb3&os=android&pageIndex=1&pageSize=16";
     $var_efffe49d229910b5a79878f9f7f51b3b = curl_init($var_7021c576192f38e1c3be7daef45b3e82);
     curl_setopt($var_efffe49d229910b5a79878f9f7f51b3b, CURLOPT_URL, $var_7021c576192f38e1c3be7daef45b3e82);
     curl_setopt($var_efffe49d229910b5a79878f9f7f51b3b, CURLOPT_RETURNTRANSFER, true);
@@ -290,7 +289,7 @@ if ($var_93754e16e5de1dacc93f82016f2fae50 == 1) {
     $var_f1cba4892ae2b6bd8d642cf05764efc4 = $var_deb477e471fcd49a5dfb43636bea8286["data"]["0"]["userName"];
             
 }
-if ($var_91dc08c7280b16618bd6e7f464a0ce39 == $var_f1cba4892ae2b6bd8d642cf05764efc4) {
+if ($var_9d6376671205e164108a012fdeaaebb3 == $var_f1cba4892ae2b6bd8d642cf05764efc4) {
     $var_e99321c19eac331b3ace2f97eab18d4c = "https://profiles.mylykaapps.com/api/v3/profiles/GetProfilePosts?os=android&pageIndex=1&pageSize=50&id=$var_a731e612483dba1a8ab11e855ad2edb6&category=ALL";
     $var_3c92c6400398859c0dda4b40f41ea8f5 = curl_init($var_e99321c19eac331b3ace2f97eab18d4c);
     curl_setopt($var_3c92c6400398859c0dda4b40f41ea8f5, CURLOPT_URL, $var_e99321c19eac331b3ace2f97eab18d4c);
@@ -660,7 +659,7 @@ DATA;
 ";
  
 
-$var_5075c332cbb6ae112b9e24c561e5d733 = "https://users.mylykaapps.com/api/v3/users/searchsuggestedpeople?searchText=$var_2e57151be7583f0f60da1d6b308f2cfc&os=android&pageIndex=1&pageSize=16";
+$var_5075c332cbb6ae112b9e24c561e5d733 = "https://users.mylykaapps.com/api/v3/users/searchsuggestedpeople?searchText=$var_027bf4670cb345c36f1286e9f277e6aa&os=android&pageIndex=1&pageSize=16";
     $var_cbc852ad6af6085ad828d1a2aa8590ef = curl_init($var_5075c332cbb6ae112b9e24c561e5d733);
     curl_setopt($var_cbc852ad6af6085ad828d1a2aa8590ef, CURLOPT_URL, $var_5075c332cbb6ae112b9e24c561e5d733);
     curl_setopt($var_cbc852ad6af6085ad828d1a2aa8590ef, CURLOPT_RETURNTRANSFER, true);
@@ -692,7 +691,7 @@ $var_363edaa7562d537ef55dc5842996ea6d = "https://users.mylykaapps.com/api/v3/Use
 ";
 
 if ($var_93754e16e5de1dacc93f82016f2fae50 == 1) {
-    $var_7021c576192f38e1c3be7daef45b3e82 = "https://users.mylykaapps.com/api/v3/users/searchsuggestedpeople?searchText=$var_2e57151be7583f0f60da1d6b308f2cfc&os=android&pageIndex=1&pageSize=16";
+    $var_7021c576192f38e1c3be7daef45b3e82 = "https://users.mylykaapps.com/api/v3/users/searchsuggestedpeople?searchText=$var_027bf4670cb345c36f1286e9f277e6aa&os=android&pageIndex=1&pageSize=16";
     $var_efffe49d229910b5a79878f9f7f51b3b = curl_init($var_7021c576192f38e1c3be7daef45b3e82);
     curl_setopt($var_efffe49d229910b5a79878f9f7f51b3b, CURLOPT_URL, $var_7021c576192f38e1c3be7daef45b3e82);
     curl_setopt($var_efffe49d229910b5a79878f9f7f51b3b, CURLOPT_RETURNTRANSFER, true);
@@ -705,7 +704,7 @@ if ($var_93754e16e5de1dacc93f82016f2fae50 == 1) {
     $var_f1cba4892ae2b6bd8d642cf05764efc4 = $var_deb477e471fcd49a5dfb43636bea8286["data"]["0"]["userName"];
             
 }
-if ($var_2e57151be7583f0f60da1d6b308f2cfc == $var_f1cba4892ae2b6bd8d642cf05764efc4) {
+if ($var_027bf4670cb345c36f1286e9f277e6aa == $var_f1cba4892ae2b6bd8d642cf05764efc4) {
     $var_e99321c19eac331b3ace2f97eab18d4c = "https://profiles.mylykaapps.com/api/v3/profiles/GetProfilePosts?os=android&pageIndex=1&pageSize=50&id=$var_a731e612483dba1a8ab11e855ad2edb6&category=ALL";
     $var_3c92c6400398859c0dda4b40f41ea8f5 = curl_init($var_e99321c19eac331b3ace2f97eab18d4c);
     curl_setopt($var_3c92c6400398859c0dda4b40f41ea8f5, CURLOPT_URL, $var_e99321c19eac331b3ace2f97eab18d4c);
@@ -1065,7 +1064,7 @@ DATA;
 echo "$var_5dae906c4a8cbbd417660fe9b59c268d
 ";
 
-$var_5075c332cbb6ae112b9e24c561e5d733 = "https://users.mylykaapps.com/api/v3/users/searchsuggestedpeople?searchText=$var_7e3cd1ad4a3d19dc252a6dfd89b9bbc2&os=android&pageIndex=1&pageSize=16";
+$var_5075c332cbb6ae112b9e24c561e5d733 = "https://users.mylykaapps.com/api/v3/users/searchsuggestedpeople?searchText=$var_4c25c63b92c46391ee1cfc81a79b0009&os=android&pageIndex=1&pageSize=16";
     $var_cbc852ad6af6085ad828d1a2aa8590ef = curl_init($var_5075c332cbb6ae112b9e24c561e5d733);
     curl_setopt($var_cbc852ad6af6085ad828d1a2aa8590ef, CURLOPT_URL, $var_5075c332cbb6ae112b9e24c561e5d733);
     curl_setopt($var_cbc852ad6af6085ad828d1a2aa8590ef, CURLOPT_RETURNTRANSFER, true);
@@ -1096,7 +1095,7 @@ $var_363edaa7562d537ef55dc5842996ea6d = "https://users.mylykaapps.com/api/v3/Use
     echo "1 - $var_819f281ecbceddedb6dfc87316a6a95c
 ";
 if ($var_93754e16e5de1dacc93f82016f2fae50 == 1) {
-    $var_7021c576192f38e1c3be7daef45b3e82 = "https://users.mylykaapps.com/api/v3/users/searchsuggestedpeople?searchText=$var_7e3cd1ad4a3d19dc252a6dfd89b9bbc2&os=android&pageIndex=1&pageSize=16";
+    $var_7021c576192f38e1c3be7daef45b3e82 = "https://users.mylykaapps.com/api/v3/users/searchsuggestedpeople?searchText=$var_4c25c63b92c46391ee1cfc81a79b0009&os=android&pageIndex=1&pageSize=16";
     $var_efffe49d229910b5a79878f9f7f51b3b = curl_init($var_7021c576192f38e1c3be7daef45b3e82);
     curl_setopt($var_efffe49d229910b5a79878f9f7f51b3b, CURLOPT_URL, $var_7021c576192f38e1c3be7daef45b3e82);
     curl_setopt($var_efffe49d229910b5a79878f9f7f51b3b, CURLOPT_RETURNTRANSFER, true);
@@ -1109,7 +1108,7 @@ if ($var_93754e16e5de1dacc93f82016f2fae50 == 1) {
     $var_f1cba4892ae2b6bd8d642cf05764efc4 = $var_deb477e471fcd49a5dfb43636bea8286["data"]["0"]["userName"];
             
 }
-if ($var_7e3cd1ad4a3d19dc252a6dfd89b9bbc2 == $var_f1cba4892ae2b6bd8d642cf05764efc4) {
+if ($var_4c25c63b92c46391ee1cfc81a79b0009 == $var_f1cba4892ae2b6bd8d642cf05764efc4) {
     $var_e99321c19eac331b3ace2f97eab18d4c = "https://profiles.mylykaapps.com/api/v3/profiles/GetProfilePosts?os=android&pageIndex=1&pageSize=50&id=$var_a731e612483dba1a8ab11e855ad2edb6&category=ALL";
     $var_3c92c6400398859c0dda4b40f41ea8f5 = curl_init($var_e99321c19eac331b3ace2f97eab18d4c);
     curl_setopt($var_3c92c6400398859c0dda4b40f41ea8f5, CURLOPT_URL, $var_e99321c19eac331b3ace2f97eab18d4c);
@@ -1471,7 +1470,7 @@ DATA;
 echo "$var_5dae906c4a8cbbd417660fe9b59c268d
 ";
 
-$var_5075c332cbb6ae112b9e24c561e5d733 = "https://users.mylykaapps.com/api/v3/users/searchsuggestedpeople?searchText=$var_d5e51124d12a8c4cc0efdf615af451fe&os=android&pageIndex=1&pageSize=16";
+$var_5075c332cbb6ae112b9e24c561e5d733 = "https://users.mylykaapps.com/api/v3/users/searchsuggestedpeople?searchText=$var_017f56caef9507c13a0fd9d7533cf00c&os=android&pageIndex=1&pageSize=16";
     $var_cbc852ad6af6085ad828d1a2aa8590ef = curl_init($var_5075c332cbb6ae112b9e24c561e5d733);
     curl_setopt($var_cbc852ad6af6085ad828d1a2aa8590ef, CURLOPT_URL, $var_5075c332cbb6ae112b9e24c561e5d733);
     curl_setopt($var_cbc852ad6af6085ad828d1a2aa8590ef, CURLOPT_RETURNTRANSFER, true);
@@ -1502,7 +1501,7 @@ $var_363edaa7562d537ef55dc5842996ea6d = "https://users.mylykaapps.com/api/v3/Use
     echo "1 - $var_819f281ecbceddedb6dfc87316a6a95c
 ";
 if ($var_93754e16e5de1dacc93f82016f2fae50 == 1) {
-    $var_7021c576192f38e1c3be7daef45b3e82 = "https://users.mylykaapps.com/api/v3/users/searchsuggestedpeople?searchText=$var_d5e51124d12a8c4cc0efdf615af451fe&os=android&pageIndex=1&pageSize=16";
+    $var_7021c576192f38e1c3be7daef45b3e82 = "https://users.mylykaapps.com/api/v3/users/searchsuggestedpeople?searchText=$var_017f56caef9507c13a0fd9d7533cf00c&os=android&pageIndex=1&pageSize=16";
     $var_efffe49d229910b5a79878f9f7f51b3b = curl_init($var_7021c576192f38e1c3be7daef45b3e82);
     curl_setopt($var_efffe49d229910b5a79878f9f7f51b3b, CURLOPT_URL, $var_7021c576192f38e1c3be7daef45b3e82);
     curl_setopt($var_efffe49d229910b5a79878f9f7f51b3b, CURLOPT_RETURNTRANSFER, true);
@@ -1515,7 +1514,7 @@ if ($var_93754e16e5de1dacc93f82016f2fae50 == 1) {
     $var_f1cba4892ae2b6bd8d642cf05764efc4 = $var_deb477e471fcd49a5dfb43636bea8286["data"]["0"]["userName"];
             
 }
-if ($var_d5e51124d12a8c4cc0efdf615af451fe == $var_f1cba4892ae2b6bd8d642cf05764efc4) {
+if ($var_017f56caef9507c13a0fd9d7533cf00c == $var_f1cba4892ae2b6bd8d642cf05764efc4) {
     $var_e99321c19eac331b3ace2f97eab18d4c = "https://profiles.mylykaapps.com/api/v3/profiles/GetProfilePosts?os=android&pageIndex=1&pageSize=50&id=$var_a731e612483dba1a8ab11e855ad2edb6&category=ALL";
     $var_3c92c6400398859c0dda4b40f41ea8f5 = curl_init($var_e99321c19eac331b3ace2f97eab18d4c);
     curl_setopt($var_3c92c6400398859c0dda4b40f41ea8f5, CURLOPT_URL, $var_e99321c19eac331b3ace2f97eab18d4c);
