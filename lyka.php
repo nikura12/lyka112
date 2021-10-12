@@ -1,5 +1,4 @@
-Converted PHP script
- <?php
+<?php
 @system("clear");
 $var_289c4962919c8c887279a40923d0fcd6 = "[1;30m";
        echo "$var_289c4962919c8c887279a40923d0fcd6
